@@ -97,9 +97,6 @@ li {
   margin: auto;
 }
 
-.heading-two {
-  display: none;
-}
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--blue-hover);
