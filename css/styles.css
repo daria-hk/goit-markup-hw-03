@@ -57,6 +57,7 @@ li {
   letter-spacing: 0.02em;
   color: var(--dark);
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .heading-three {
@@ -173,8 +174,20 @@ li {
   background: #f4f4fd;
 }
 
-.team-section > .section-item ul > li {
-  background-color: #fff;
+.team-item {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+
+.items-container {
+  padding: 32px 0;
+}
+
+.items-container .heading-three,
+.items-container .info-item {
+  text-align: center;
 }
 
 .section {
@@ -184,6 +197,13 @@ li {
 .portfolio-list {
   gap: 39px 24px;
   flex-wrap: wrap;
+}
+.items-container-portfolio {
+  border-top: none;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .footer-section {
@@ -203,4 +223,17 @@ li {
 .footer-info-item {
   color: #f4f4fd;
   width: 264px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
