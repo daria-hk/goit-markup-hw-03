@@ -167,8 +167,16 @@ li {
   gap: 24px;
 }
 
+.goals-items {
+  width: calc((100% - 72px) / 4);
+}
+
 .section-item {
   margin: auto;
+}
+
+.team-list.container-item {
+  gap: 24px;
 }
 .team-section {
   background: #f4f4fd;
@@ -195,7 +203,6 @@ li {
 }
 
 .portfolio-list {
-  gap: 39px 24px;
   flex-wrap: wrap;
 }
 .items-container-portfolio {
