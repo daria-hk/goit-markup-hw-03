@@ -25,6 +25,16 @@ li {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .color-rule-header {
   color: #2e2f42;
 }
@@ -157,10 +167,6 @@ li {
   font-size: 56px;
   max-width: 496px;
   color: #fff;
-}
-
-.goals-section > .section-item {
-  padding: 106px 0;
 }
 
 .goals-section .container-item {
